@@ -10,7 +10,7 @@ def paginaHTML ():
   requisicao = requests.get (url) 
   print ("Código HTTP de resposta: " + str (requisicao.status_code)) 
   pagina = requisicao.text 
-  return pagina @app.route ("/paginaTXT") 
+  return pagina 
 
 @app.route ("/paginaTXT")
 def paginaTXT (): 
