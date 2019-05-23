@@ -1,8 +1,8 @@
 from flask import Flask, jsonify 
 import requests 
-from bs4 import BeautifulSoup 
+from bs4 import BeautifulSoup
 
-app = Flask (__name__) 
+app = Flask (__name__)
 
 @app.route ("/paginaHTML")
 def paginaHTML (): 
@@ -12,6 +12,7 @@ def paginaHTML ():
   pagina = requisicao.text 
   return pagina @app.route ("/paginaTXT") 
 
+@app.route ("/paginaTXT")
 def paginaTXT (): 
   url = "http://journals.ecs.soton.ac.uk/java/tutorial/networking/urls/readingWriting.html" 
   requisicao = requests.get (url) 
