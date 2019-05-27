@@ -4,7 +4,7 @@ Desenvolvimento de uma máquina de busca utilizando Python 3.
 ## Como instalar
 ### Pré requisitos
 1. Possuir o Python[https://www.python.org/downloads/] instalado em sua última versão;
-2. Possuir o pip em sua última versão (rodar o comando `pip -v` p/ verificar versão e caso necessite atualizar, rodar `python -m pip install --upgrade pip`); 
+2. Possuir o pip em sua última versão (rodar o comando `pip -v` p/ verificar versão e caso necessite atualizar, rodar `python -m pip install --upgrade pip`). 
 
 ### Configuração do ambiente e execução do projeto
 1. Instalar o ambiente virtual (virtualenv), que permite o desenvolvimento de aplicações em um ambiente encapsulado, executando o comando `pip install virtualenv`;
