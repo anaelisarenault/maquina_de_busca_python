@@ -1,6 +1,6 @@
 from flask import Flask, jsonify 
-import requests 
-from bs4 import BeautifulSoup
+import requests #permite realizar requisições HTTP
+from bs4 import BeautifulSoup #trata arquivos HTML e XML
 
 app = Flask (__name__)
 
